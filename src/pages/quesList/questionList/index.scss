@@ -1,0 +1,145 @@
+.ques-list-content{
+    margin: 0 30px;
+    padding: 0 0 30px 0;
+    margin-top: 48px;
+    background: #F5F5F5;
+    .item-list{
+        padding: 30px 30px;
+        margin-top:32px;
+        background: #ffffff;
+        .item-list-title{
+            font-size: 32px;
+            // margin: 0 40px;
+            font-weight: bold;
+            color: #010101;  
+        }
+        .porgress-list{
+            margin-top: 48px;
+            max-height: auto;
+            overflow: hidden;
+            .item-porgress{
+                margin-bottom: 30px;
+            }
+        }
+        .num{
+            font-size: 28px;
+            color: #AAAAAA;
+        }
+        .atList{
+            padding: 20px 0;
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #4E4E4E;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #E2E2E2;
+            .atItem{
+                .right-icon{
+                    width: 45px;
+                    height:50px;
+                }
+                .atItem{
+                    display: flex;
+                    align-items: center
+                }
+            }
+        }
+        .Taro-table{
+            margin-bottom: 20px;
+            margin-top:66px;
+            .col{
+                border: 1px solid #E2E2E2;
+                display: flex;
+                .col-text{
+                    flex: 1;
+                    padding: 10px 0;
+                    border-right: 1px solid #E2E2E2;
+                    font-size: 28px;
+                    color: #4e4e4e;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .col-image{
+                        width: 70px;
+                        height: 70px;
+                        padding: 0 20px;
+                    }
+                }
+                .col-text:last-child{
+                    border-right:none
+                }
+            }
+            .row{
+                border: 1px solid #E2E2E2;
+                border-top:none;
+                display: flex;
+                .row-text{
+                    flex: 1;
+                    padding: 10px 0;
+                    border-right: 1px solid #E2E2E2;
+                    text-align: center;
+                    font-size: 28px;
+                    color: #4e4e4e;
+                }
+                .row-text:last-child{
+                    border-right:none
+                }
+            }
+        }
+        .scrollTable{
+            white-space: nowrap;
+            padding: 0 0 20px 0;
+            overflow-y: hidden;
+            overflow-x: auto;
+            .col{
+                width:100%;
+                .col-text{
+                    white-space:normal;
+                    word-break:break-all;
+                    word-wrap:break-word; 
+                }
+            }
+        }
+        .detail-table{
+            background: #ffffff;
+            white-space: nowrap;
+            padding: 0 0 20px 0;
+            width: 100%;
+            margin-top:66px;
+            overflow-y: hidden;
+            overflow-x: auto;
+            .col{
+                display:inline-block;
+                // width:100%;
+                .col-view{
+                    display: flex;
+                    border: 1px solid #E2E2E2;
+                    .flex{
+                        border-right: 1px solid #E2E2E2;
+                    }
+                    .col-header{
+                        font-size: 32px;
+                        color: #000000;
+                        width: 200px;
+                        display: inline-block;
+                        white-space:normal;
+                        word-break:break-all;
+                        word-wrap:break-word; 
+                    }
+                    .col-text{
+                        padding: 0 30px 0 30px;
+                        font-size: 28px;
+                        color: #4e4e4e;
+                        width:200px;
+                        display: inline-block;
+                        text-align: left;
+                        white-space:normal;
+                        word-break:break-all;
+                        word-wrap:break-word; 
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, ScrollView,Text } from '@tarojs/components'
-// import QuestionList from './questionList/questionList'
+import Questionlist from './questionList/questionList'
 // import {Loading} from '@components/loading'
 import api from '../../services/api'
 import { getWindowHeight } from '../../utils/style'
@@ -151,7 +151,7 @@ export default class Index extends Component {
                   <View className='data-flex-total'>{(Math.floor(quesList.answerAvgTime/3600) + '分' + quesList.answerAvgTime%60 +　'秒')}</View>
                 </View>
             </View>
-            {/* <QuestionList list={quesResult} /> */}
+            <Questionlist list={quesResult} />
             {loadingMore}
             {this.state.hasMore &&
               <View className='home__loading home__loading--not-more'>
